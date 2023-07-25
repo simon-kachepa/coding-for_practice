@@ -1,0 +1,27 @@
+#include <stdio.h>
+
+/**
+* main - Entry point
+* Description - Program that increment a negative number and change its sign up to 0
+* Return: 0
+*/
+
+int main(void)
+{
+	int i = -9;
+
+	while (i++)
+	{
+		if (i == 0)
+		{
+			printf("%d", -i);
+		}
+		else
+		{
+			printf("%d, ", -i);
+		}
+	}
+	printf("\n");
+
+	return (0);
+}
