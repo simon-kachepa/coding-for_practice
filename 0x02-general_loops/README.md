@@ -1,3 +1,3 @@
 ### LOOPS
 
-This directory contains C loops program
+This directory contains C program on loops in general
