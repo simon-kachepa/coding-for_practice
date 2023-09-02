@@ -9,12 +9,12 @@ int main(void)
 }
 int _strlen(char *str)
 {
-    int i;
+    int count;
 
-    i = 0;
-    while(str[i] != '\0')
+    count = 0;
+    while(str[count] != '\0')
     {
-        i++;
+        count++;
     }
-    return (i);
+    return (count);
 }
