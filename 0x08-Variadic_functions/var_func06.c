@@ -4,7 +4,7 @@
 void print_something(int n, ...);
 int main(void)
 {
-    print_something(5, 60, "Hardy", 7.8, 'S', "Capizha");
+    print_something(5, 60, "Hardy", 7.8, 'S', "Hardazy");
     return (0);
 }
 
