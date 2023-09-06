@@ -13,5 +13,6 @@ int main(void)
 	int random_number = rand(); /* This will generate a random number between 0 - 32767 */
 
 	printf("The random number generated is: %d\n", random_number);
+	printf("The random number generated is: %d\n", random_number % 6); /*To generate a random number between 0 and 6. Used on a six sided die*/
 	return (0);
 }
