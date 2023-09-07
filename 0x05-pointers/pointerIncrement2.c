@@ -2,7 +2,7 @@
 
 /**
 * main - Entry point
-* Description - Program that increment a negative number and change its sign up to 0
+* Description - Program that increment a negative number and change its sign up to 0 using pointer array
 * Return: 0
 */
 

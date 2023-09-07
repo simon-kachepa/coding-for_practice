@@ -8,5 +8,6 @@ int main()
     num = malloc(sizeof(int));
 
     printf("%d\n", *num);
+    free(num);
     return (0);
 }

@@ -1,1 +1,1 @@
-This dorectory contains general C-Arrays
+This dorectory contains general C-Arrays programs
