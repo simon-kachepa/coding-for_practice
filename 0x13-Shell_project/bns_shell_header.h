@@ -12,5 +12,6 @@
  * Include function prototypes
  */
 void bns_shell();
-
+void bns_print(const char *input);
+int bns_strlen(char *str);
 #endif
