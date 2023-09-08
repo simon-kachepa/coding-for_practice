@@ -16,13 +16,21 @@ void bns_shell()
 	}
 }
 /**
- * Function that executes the shell commands
+ * Function that display the prompt
  */
+void bns_display_prompt()
+{
+	bns_print("brendon&simon_$");
+}
 
 /**
  * Function that accepts commands
  */
 
 /**
- * Function that creates command line interface
+ * Function that executes the command
  */
+void bns_display_command(const char *input)
+{
+	pid_t 
+}
