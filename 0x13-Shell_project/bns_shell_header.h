@@ -12,6 +12,9 @@
  * Include function prototypes
  */
 void bns_shell();
+bns_display_prompt();
+bns_accept_command(char *, int size);
+bns_display_command(input);
 void bns_print(const char *input);
 int bns_strlen(char *str);
 #endif
