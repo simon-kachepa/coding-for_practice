@@ -14,8 +14,8 @@ int main()
 	/*Accepting marks from user*/
 	for(index = 0; index < 5; index++)
 	{
-		printf("Enter mark for student %d: ", index + 1);/* Prompting the user to enter the marks*/
-		scanf("%f ", mark[index]);
+		printf("Enter mark for student %d:\n", index + 1);/* Prompting the user to enter the marks*/
+		scanf("%f ", &mark[index]);
 	}
 
 	/* Funding the sum of the marks*/
