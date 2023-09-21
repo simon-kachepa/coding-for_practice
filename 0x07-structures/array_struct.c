@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 
-struct Members
+struct Member
 {
     char name[30];
     int age;
@@ -10,7 +10,7 @@ struct Members
 
 int main(void)
 {
-    struct Members person[3];
+    struct Member person[3];
     int i;
     char name[30];
 
