@@ -1,5 +1,9 @@
 #include <stdio.h>
 
+/**
+*Program that prints command line arguements
+*/
+
 int main(int argc, char *argv[])
 {
     int index;
