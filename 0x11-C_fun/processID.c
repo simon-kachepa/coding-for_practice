@@ -14,6 +14,6 @@ int main(void)
     parent_process_id = getppid();
 
     printf("The process ID is: %u\n", process_id);
-    printf("The process ID of the parent process is %u\n". parent_process_id);
+    printf("The process ID of the parent process is %u\n", parent_process_id);
     return (0);
 }
