@@ -15,7 +15,7 @@ int main(void)
     struct Members member4;
     struct Members member5;
 
-    strcpy(member1.name, "Zviko Kachepa");
+    strcpy(member1.name, "Captain Kachepa");
     member1.age = 19;
     member1.mark = 78;
 
