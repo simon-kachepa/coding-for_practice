@@ -26,7 +26,7 @@ int main(void)
         scanf("%s", student[index].name);
         printf("Enter mark: ");
         scanf("%f", &student[index].mark);
-         printf("-------------------------------\n");
+         printf("-------------------------------------------------\n");
     }
 
     for (index = 0; index < 3; index++)
