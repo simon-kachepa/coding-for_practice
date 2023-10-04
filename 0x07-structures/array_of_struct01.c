@@ -32,7 +32,7 @@ int main(void)
     for (index = 0; index < 3; index++)
     {
         printf("Student %d details\n", index + 1);
-        printf("-------------------------------\n");
+        printf("----------------------------------------------------\n");
         printf("Reg Number: %d\n", student[index].regno);
         printf("Name: %s\n", student[index].name);
         printf("Mark: %f\n", student[index].mark);
