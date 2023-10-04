@@ -19,7 +19,7 @@ int main(void)
     member1.age = 19;
     member1.mark = 78;
 
-    struct Members member2 = {"Rangarirai Kachepa", 20, 90};
+    struct Members member2 = {"McDonald Kachepa", 20, 90};
 
     printf("%s is %d years old and he got %d\n", member1.name, member1.age, member1.mark);
     printf("%s is %d years old and he got %d\n", member2.name, member2.age, member2.mark);
