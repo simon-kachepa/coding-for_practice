@@ -54,7 +54,7 @@ int main(void)
     /**
      * Inserting a new node at the 4th position
     */
-   add_node_pos(head, 4, 116);
+   add_node_pos(head, 4, 126);
 
     /**
      * Printing the new list with inserted new node at the 4th position
