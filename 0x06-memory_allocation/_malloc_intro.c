@@ -9,7 +9,7 @@ int main()
 {
     int *number;
 
-    num = malloc(sizeof(int));
+    number = malloc(sizeof(int));
 
     printf("%d\n", *num);
     free(num);
