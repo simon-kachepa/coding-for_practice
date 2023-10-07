@@ -7,7 +7,7 @@
 
 int main()
 {
-    int *num;
+    int *number;
 
     num = malloc(sizeof(int));
 
