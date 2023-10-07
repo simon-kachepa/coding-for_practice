@@ -11,7 +11,7 @@ int main()
 
     number = malloc(sizeof(int));
 
-    printf("%d\n", *num);
+    printf("%d\n", *number);
     free(num);
     return (0);
 }
