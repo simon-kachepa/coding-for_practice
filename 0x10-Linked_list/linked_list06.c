@@ -37,7 +37,7 @@ int main(void)
     current->link = NULL;
     head->link->link->link = current;
 
-    /*Printing the old node*/
+    /*Printing the old node */
     print_data(head);
 
     /**
