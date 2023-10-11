@@ -47,7 +47,7 @@ int main(void)
 
     head->link->link->link->link = current;
 
-    /* Calling the print data function to print the data of the existing linked list*/
+    /* Calling the print data function to print the data of the existing linked list */
     print_data(head);
 
     /**
