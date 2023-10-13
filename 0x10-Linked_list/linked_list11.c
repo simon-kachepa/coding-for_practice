@@ -3,6 +3,7 @@
 
 /**
  * Program that deletes a node at a certain position
+ * Assumption: The position of the node to deleted is given
 */
 
 struct node
