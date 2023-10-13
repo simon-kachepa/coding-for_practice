@@ -57,7 +57,7 @@ int main(void)
    add_node_pos(head, 4, 137);
 
     /**
-     * Printing the new list with inserted new node at the 4th position
+     * Printing the new list with new node inserted at the 4th position
     */
    print_data(head);
     return (0);
