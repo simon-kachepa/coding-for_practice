@@ -26,7 +26,7 @@ int main(void)
     current->link = NULL;
     head->link = current;
 
-    /*Printing data of the already created linked list*/
+    /*Printing data of the already created linked list */
     print_data(head);
 
     /*Adding a new node at the end of the linked list*/
