@@ -51,7 +51,7 @@ int main(void)
     print_data(head);
 
     /**
-     * Calling the function that deletes the whole lis
+     * Calling the function that deletes the whole list
     */
    head = delete_entire_list(head);
 
