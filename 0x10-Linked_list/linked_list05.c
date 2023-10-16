@@ -27,7 +27,7 @@ int main(void)
     ptr = add_node(ptr, 100);
     ptr = add_node(ptr, 150);
 
-    /*Assigning the value of head to ptr so that we can use ptr to traverse the linked list when printing data*/
+    /*Assigning the value of head to ptr so that we can use ptr to traverse the linked list when printing data */
     ptr = head;
 
     /*Printing the data of the created linked list*/
