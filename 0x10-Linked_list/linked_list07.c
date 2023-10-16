@@ -49,7 +49,7 @@ int main(void)
      */
     
     
-    add_node_at_beginning(&head, 855);
+    add_node_at_beginning(&head, 825);
 
     /* Prining the linked list with the newly inserted node*/
     print_data(head);
