@@ -1,5 +1,9 @@
 #include <stdio.h>
 
+/**
+ * Program that counts the number of characters in a string 
+*/
+
 int _strlen(char *str);
 int main(void)
 {
