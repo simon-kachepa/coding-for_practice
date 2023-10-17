@@ -30,7 +30,7 @@ int main(void)
     /*Assigning the value of head to ptr so that we can use ptr to traverse the linked list when printing data */
     ptr = head;
 
-    /*Printing the data of the created linked list*/
+    /*Printing the data of the created linked list */
     print_data(head);
     return (0);
 }
