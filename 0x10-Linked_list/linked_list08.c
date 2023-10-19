@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * Program that adds a node at a certain position.
+ * Program that adds a node at a certain position in a list.
  * Assumption: The position where the new node needs to be inserted is given
 */
 
