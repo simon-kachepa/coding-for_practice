@@ -43,7 +43,7 @@ int main(void)
     /**
      * Inserting a new node at the begining of the linked list
      * struct node *ptr = malloc(sizeof(struct node));
-     * ptr->data = 500;
+     * ptr->data = 50;
      * ptr->link = head;
      * head = ptr;
      */
