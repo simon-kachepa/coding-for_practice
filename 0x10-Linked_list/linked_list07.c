@@ -46,6 +46,7 @@ int main(void)
      * ptr->data = 677;
      * ptr->link = head;
      * head = ptr;
+     
      */
     
     
