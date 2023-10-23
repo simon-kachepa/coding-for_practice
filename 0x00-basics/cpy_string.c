@@ -1,4 +1,7 @@
 #include <stdio.h>
+/**
+* Program that copy a string
+*/
 
 int main(void)
 {
