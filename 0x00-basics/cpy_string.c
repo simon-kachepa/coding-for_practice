@@ -1,6 +1,7 @@
 #include <stdio.h>
 /**
 * Program that copy a string
+* Return: 0 (Success)
 */
 
 int main(void)
