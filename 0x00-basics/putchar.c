@@ -1,4 +1,7 @@
 #include <stdio.h>
+/**
+* Program that prints alphabet characters from A to Z
+*/
 
 int main(void)
 {
