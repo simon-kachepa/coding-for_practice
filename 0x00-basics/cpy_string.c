@@ -1,6 +1,7 @@
 #include <stdio.h>
 /**
-* Program that copy a string
+* main - Entry point
+* Description: Program that copy a string
 * Return: 0 (Success)
 */
 
