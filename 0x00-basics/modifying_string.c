@@ -1,5 +1,10 @@
 #include <stdio.h>
 
+/**
+* main - Entry point
+* Desrciption: 
+* Return: 0 (Success)
+
 int main(void)
 {
     char *ptr = "Simon";
