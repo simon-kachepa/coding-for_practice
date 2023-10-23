@@ -1,5 +1,6 @@
 #include <stdio.h>
 /**
+* Description: A program that accepts user input
 * main - Entry Point
 * Return: 0 (Success)
 */
