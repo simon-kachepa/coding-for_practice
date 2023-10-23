@@ -5,7 +5,7 @@
  * Description - Simple intro to strings in C
  * String - is a sequence of characters.
  * String is an array of characters
- * Return: (0)
+ * Return: 0 (Success)
 */
 
 int main(void)
