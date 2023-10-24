@@ -10,5 +10,6 @@ int main(void)
 
     int b = ++a + a++ + --a;
     printf("Value of b is: %d\n", b);
+    
     return (0);
 }
