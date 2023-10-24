@@ -1,5 +1,11 @@
 #include <stdio.h>
 
+/**
+* main - Entry Point
+* Description: 
+* Return 0 (Success)
+*/
+
 void myname(void);
 void reset_to_98(int *n);
 int main(void)
