@@ -1,5 +1,11 @@
 #include<stdio.h>
 
+/**
+* main - Entry Point
+* Factorial - Function that calculates functorial of a number
+* Return: 0 (Success)
+*/
+
 int Factorial(int);
 
 int main(){
