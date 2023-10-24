@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 /**
- * Write a program that asks a user to input marks for 5 students, displaying their average, the highest mark and the lowest mark among 5 students
+ * Write a program that asks a user to input marks for 5 students, displaying their 
+ * average, the highest mark and the lowest mark among 5 students
  */
 
 int main()
@@ -26,7 +27,6 @@ int main()
 	average = sum / 5;
 
 	printf("The average is: %f\n", average);
-
 
 	return (0);
 }
