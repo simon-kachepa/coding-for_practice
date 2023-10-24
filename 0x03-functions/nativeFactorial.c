@@ -1,5 +1,10 @@
 #include <stdio.h>
 
+/**
+* main - Entry Point
+* Factorial - Function that calculates factorial of a number using a native for loop
+* Return: 0 (Success)
+
 int Factorial(int num);
 
 int main(){
@@ -12,10 +17,7 @@ int main(){
 
     printf("The factorial of %d is: %d\n", num1, Factorial(num1));
     printf("The factorial of %d is: %d\n", num2, Factorial(num2));
-
-
-
-
+    
     return 0;
 }
 
