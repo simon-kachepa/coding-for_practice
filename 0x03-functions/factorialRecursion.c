@@ -2,7 +2,7 @@
 
 /**
 * main - Entry Point
-* Factorial - Function that calculates functorial of a number
+* Factorial - Function that calculates functorial of a number using recursion
 * Return: 0 (Success)
 */
 
