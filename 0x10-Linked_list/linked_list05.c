@@ -2,6 +2,7 @@
 #include <stdlib.h>
 
 /**
+ * main - Entry Point
  * Description: A program that adds a node at the end without traversing the linked list
 */
 
