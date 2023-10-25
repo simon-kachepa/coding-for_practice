@@ -2,6 +2,7 @@
 #include <stdlib.h>
 
 /**
+ * main - Entry Point
  * Program that deletes the first node of a linked list
 */
 
