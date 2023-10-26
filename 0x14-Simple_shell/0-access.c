@@ -8,7 +8,7 @@
 
 int main(void)
 {
-	char *file_path = "test.txt";
+	char *file_path = "Hardon/hardy"; // Specifying file path or directory path
 	int permissions = R_OK; //Checking Read permissions
 
 	/**
