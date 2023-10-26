@@ -1,4 +1,9 @@
 #include <stdio.h>
+/**
+* main - Entry point
+* Description:Program that assigns a value to a dereferrencer and assigns a value to it
+* Return: 0 (Success)
+*/
 
 int main(void)
 {

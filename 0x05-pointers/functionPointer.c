@@ -1,5 +1,11 @@
 #include <stdio.h>
 
+/**
+* main - Entry point
+* Description:
+* Return: 0 (Success)
+*/
+
 int sum(int num1, int num2);
 
 int main(void)

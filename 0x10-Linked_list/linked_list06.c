@@ -19,21 +19,21 @@ int main(void)
     struct node *head = NULL;
 
     head = malloc(sizeof(struct node));
-    head->data = 11;
+    head->data = 110;
     head->link = NULL;
 
     struct node *current = malloc(sizeof(struct node));
-    current->data = 22;
+    current->data = 220;
     current->link = NULL;
     head->link = current;
 
     current = malloc(sizeof(struct node));
-    current->data = 33;
+    current->data = 330;
     current->link = NULL;
     head->link->link = current;
 
     current = malloc(sizeof(struct node));
-    current->data = 44;
+    current->data = 440;
     current->link = NULL;
     head->link->link->link = current;
 
@@ -49,7 +49,7 @@ int main(void)
      */
     
     
-    head = add_node_at_beginning(head, 833);
+    head = add_node_at_beginning(head, 1833);
 
     /* Prining the linked list with the newly inserted node */
     print_data(head);

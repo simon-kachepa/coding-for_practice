@@ -2,6 +2,7 @@
 #include <stdlib.h>
 
 /**
+ * main - Entry Point
  * Description: A program that adds a node at the end without traversing the linked list
 */
 
@@ -19,13 +20,13 @@ int main(void)
     struct node *head = NULL;
 
     head = malloc(sizeof(struct node));
-    head->data = 5;
+    head->data = 50;
     head->link = NULL;
 
     struct node *ptr = head;
-    ptr = add_node(ptr, 5);
-    ptr = add_node(ptr, 10);
-    ptr = add_node(ptr, 15);
+    ptr = add_node(ptr, 50);
+    ptr = add_node(ptr, 100);
+    ptr = add_node(ptr, 150);
 
     /*Assigning the value of head to ptr so that we can use ptr to traverse the linked list when printing data */
     ptr = head;
