@@ -1,5 +1,11 @@
 #include <stdio.h>
 
+/**
+* main - Entry point
+* Description:
+* Return: 0 (Success)
+*/
+
 int modify_my_para(int m);
 int main(void)
 {
