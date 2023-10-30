@@ -2,7 +2,9 @@
 #include <stdlib.h>
 
 /**
- * Description: Program that define array of structure
+* main - Entry Point
+* Description: Program that define array of structure
+* Return: 0 (Success)
 */
 
 typedef struct Student
