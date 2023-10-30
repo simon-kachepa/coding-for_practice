@@ -1,5 +1,11 @@
 #include <stdio.h>
 
+/**
+* main - Entry Point
+* Description:
+* Return: 0 (Success)
+*/
+
 void modify_me(char *cc, char ccc){
     *cc = 'o';
     ccc = 'l';
