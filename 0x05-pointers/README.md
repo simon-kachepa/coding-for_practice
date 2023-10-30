@@ -1,1 +1,1 @@
-This directory is for practice programs on pointers
+This directory contains C practice programs on pointers
