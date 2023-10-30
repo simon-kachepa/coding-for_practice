@@ -1,6 +1,12 @@
 #include <stdio.h>
 #include <string.h>
 
+/**
+* main - Entry point
+* Desrciption:
+* Return: 0 (Success)
+*/
+
 struct Member
 {
     char name[30];
