@@ -1,5 +1,13 @@
 #include <stdio.h>
+
+/**
+* main - Entry Point
+* Description:
+* Return: 0 (Success)
+*/
+
 int addNumbers(int *a, int *b);
+
 int main() {
     int num1 = 2, num2 = 3;
     int *ptr1, *ptr2;
