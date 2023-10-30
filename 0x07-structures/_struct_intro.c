@@ -2,6 +2,12 @@
 #include <stdlib.h>
 #include <string.h>
 
+/**
+* main - Entry Point
+* Description:
+* Return: 0 (Success)
+*/
+
 struct Members
 {
     char name[20];
