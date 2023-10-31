@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 /**
+* main - Entry Point
  * Question: What is the output of the following code
  */
 
