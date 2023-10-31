@@ -1,8 +1,10 @@
 #include <stdio.h>
 
 /**
- * Question: What is the output of the following
- */
+* main - Entry point
+* Question: What is the output of the following
+* Return: 0 (Success)
+*/
 
 int main(void)
 {
