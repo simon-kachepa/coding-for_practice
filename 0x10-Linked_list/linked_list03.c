@@ -2,7 +2,9 @@
 #include <stdlib.h>
 
 /**
- * Description: program that traverse a linked list asnd prints its data
+* main - Entry point
+* Description: program that traverse a linked list asnd prints its data
+* Return: 0 (Success)
 */
 
 struct node
