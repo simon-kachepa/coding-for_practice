@@ -1,1 +1,1 @@
-### This directory contains File input/output programs
+### This directory contains C File input/output practice programs
