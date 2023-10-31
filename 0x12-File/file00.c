@@ -2,7 +2,9 @@
 #include <stdlib.h>
 
 /**
- * Program that open a file and write to it
+* main - Entry point
+ * Description: Program that open a file and write to it
+ * Return: 0 (Success)
 */
 
 int main(void)
