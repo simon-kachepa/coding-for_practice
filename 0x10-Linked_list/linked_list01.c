@@ -2,7 +2,9 @@
 #include <stdlib.h>
 
 /**
- * Description - Creating a single linked list
+* main - Entry point
+* Description - Program that creates a single linked list
+* Return: 0 (Success)
 */
 
 struct node
