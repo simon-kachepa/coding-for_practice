@@ -1,6 +1,12 @@
 #include <stdio.h>
 #include <stdarg.h>
 
+/**
+* main - Entry point
+* Description:
+* Return: 0 (Success)
+*/
+
 char print(int args, ...);
 int main(void)
 {
