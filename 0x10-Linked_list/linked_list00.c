@@ -3,10 +3,10 @@
 
 /**
 * main - Entry point
- * Dscription: Creating a simple node in c
- * Creating a self referencial structure to represent node elements
- * Note that a node consist of 2 parts, data part and link part
- * Return: 0 (Success)
+* Dscription: Creating a simple node in c
+* Creating a self referencial structure to represent node elements
+* Note that a node consist of 2 parts, data part and link part
+* Return: 0 (Success)
 */
 struct node
 {
