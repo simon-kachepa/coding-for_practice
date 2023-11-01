@@ -2,7 +2,9 @@
 #include <stdlib.h>
 
 /**
- * Description: Program that counts the number of nodes of a linked list
+* main - Entry point
+* Description: Program that counts the number of nodes of a linked list
+* Return: 0 (Success)
 */
 struct node
 {
