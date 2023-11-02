@@ -1,6 +1,12 @@
 #include <stdio.h>
 #include <stdarg.h>
 
+/**
+* main - Entry point
+* Description:
+* Return: 0 (Success)
+*/
+
 void print_something(int n, ...);
 
 int main(void)
