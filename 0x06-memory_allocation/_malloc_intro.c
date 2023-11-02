@@ -2,7 +2,9 @@
 #include <stdlib.h>
 
 /**
-*Description- Program that prints memory address
+* main - Entry point
+* Description- Program that prints memory address
+* Return: 0 (Success)
 */
 
 int main()
