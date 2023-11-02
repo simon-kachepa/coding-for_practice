@@ -1,6 +1,12 @@
 #include <stdio.h>
 #include <string.h>
 
+/**
+* main - Entry point
+* Description:
+* Return: 0 (Success)
+*/
+
 int main(int argc, char *argv[])
 {
     int num1, num2, result = 1, i;
