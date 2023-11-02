@@ -1,7 +1,9 @@
 #include <stdio.h>
 
 /**
-* Program that prints the number of Arguments passed 
+* main - Entry point
+* Description: Program that prints the number of Arguments passed 
+* Return: 0 (Success)
 */
 
 int main(int argc, char *argv[])
