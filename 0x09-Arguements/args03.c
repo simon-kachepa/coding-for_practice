@@ -1,7 +1,9 @@
 #include <stdio.h>
 
 /**
-*Program that prints command line arguements
+* main - Entry point
+* Description: Program that prints command line arguements
+* Return:0 (Success)
 */
 
 int main(int argc, char *argv[])
