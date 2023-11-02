@@ -23,4 +23,6 @@ int main(void)
     head->data = 9;
     printf("%d\n", head->data);
     printf("%p\n", head);
+
+    return (0);
 }
