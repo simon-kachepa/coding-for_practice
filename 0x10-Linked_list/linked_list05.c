@@ -55,6 +55,7 @@ struct node* add_node(struct node *ptr, int data)
 
 /**
  * Function that prints the data of the linked list
+ * @head: Pointer to the first node of the list
 */
 void print_data(struct node *head)
 {
