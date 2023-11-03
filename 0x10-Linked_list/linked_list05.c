@@ -39,6 +39,8 @@ int main(void)
 
 /**
  * Function to add a node at the end;
+ * @ptr: Pointer to the new node to be added to the list
+ * @data: Data of the new node to be inserted
 */
 struct node* add_node(struct node *ptr, int data)
 {
