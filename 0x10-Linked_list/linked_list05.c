@@ -4,6 +4,7 @@
 /**
  * main - Entry Point
  * Description: A program that adds a node at the end without traversing the linked list
+ * Return: 0 (Success)
 */
 
 struct node
