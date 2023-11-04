@@ -4,6 +4,7 @@
 /**
 * main - Entry point
  * Description: Program that adds a node at the begining of the list
+ * Return: 0 (Succees)
 */
 
 struct node
