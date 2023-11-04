@@ -2,6 +2,7 @@
 #include <stdlib.h>
 
 /**
+* main - Entry point
  * Program that deletes the last node of a linked list
 */
 
