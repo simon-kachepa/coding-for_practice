@@ -2,8 +2,11 @@
 #include <stdlib.h>
 
 /**
+* main - Entry point
  * Program that adds a node at a certain position in a list.
- * Assumption: The position where the new node needs to be inserted is given
+ * Assumption: The position where the new node need
+s to be inserted is given
+* Return: 0 (Success)
 */
 
 struct node
