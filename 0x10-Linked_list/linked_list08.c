@@ -79,7 +79,7 @@ void add_node_pos(struct node *h, int position, int data)
     new->data = data;
     new->link = NULL;
 
-    for(i = 1; i < position - 1; i++)
+    for(i = 1; i < (position - 1); i++)
     {
         ptr = ptr->link;
     }
