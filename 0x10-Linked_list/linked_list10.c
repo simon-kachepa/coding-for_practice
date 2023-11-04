@@ -116,6 +116,7 @@ void print_data(struct node *head)
             printf("%d ", ptr->data);
             ptr = ptr->link;
         }
+        
         printf("\n");
     }
 }
