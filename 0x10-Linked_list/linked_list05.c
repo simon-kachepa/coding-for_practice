@@ -21,7 +21,7 @@ int main(void)
     struct node *head = NULL;
 
     head = malloc(sizeof(struct node));
-    head->data = 50;
+    head->data = 5;
     head->link = NULL;
 
     struct node *ptr = head;
