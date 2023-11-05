@@ -26,7 +26,7 @@ int main(void)
 
     struct node *ptr = head;
     ptr = add_node(ptr, 150);
-    ptr = add_node(ptr, 10);
+    ptr = add_node(ptr, 200);
     ptr = add_node(ptr, 15);
 
     /*Assigning the value of head to ptr so that we can use ptr to traverse the linked list when printing data */
