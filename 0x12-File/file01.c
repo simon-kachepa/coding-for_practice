@@ -19,7 +19,7 @@ int main(void)
         exit(98);
     }
 
-    fputs("Coding is fun", fptr);
+    fputs("Coding is fun", fptr); /* Writting to the file */
 
     fclose(fptr);
 
