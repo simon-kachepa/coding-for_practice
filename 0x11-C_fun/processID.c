@@ -2,6 +2,7 @@
 #include <unistd.h>
 
 /**
+* main - Entry point
  * Description: Program that prints the process ID of a parent process
 */
 
