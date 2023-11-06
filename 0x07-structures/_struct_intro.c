@@ -27,7 +27,7 @@ int main(void)
 
     struct Members member2 = {"McDonald Kachepa", 29, 53};
 
-    printf("%s is %d years old and he got %d\n", member1.name, member1.age, member1.mark);
+    printf("%s is %d years old and he got %d in his final exam\n", member1.name, member1.age, member1.mark);
     printf("%s is %d years old and he got %d\n", member2.name, member2.age, member2.mark);
     return (0);
 }
