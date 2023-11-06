@@ -3,7 +3,7 @@
 
 /**
 * main - Entry point
-* Program that open a file and write to it
+* Description: Program that open a file and write to it
 * Return: 0 (Success)
 */
 
