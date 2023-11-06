@@ -5,6 +5,7 @@
 /**
 * main - Entry point
  * Description - This program generates a random number at every run
+ * Return: 0 (Success)
  */
 
 int main(void)
