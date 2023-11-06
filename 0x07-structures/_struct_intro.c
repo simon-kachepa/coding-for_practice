@@ -22,8 +22,8 @@ int main(void)
     struct Members member5;
 
     strcpy(member1.name, "Captain Kachepa");
-    member1.age = 20;
-    member1.mark = 78;
+    member1.age = 21;
+    member1.mark = 64;
 
     struct Members member2 = {"McDonald Kachepa", 20, 80};
 
