@@ -4,6 +4,7 @@
 /**
 * main - Entry point
  * Description: Program that prints the process ID of a parent process
+ * Return: 0 (Success)
 */
 
 int main(void)
