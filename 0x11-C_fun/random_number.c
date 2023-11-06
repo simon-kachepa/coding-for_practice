@@ -3,6 +3,7 @@
 #include <time.h>
 
 /**
+* main - Entry point
  * Description - This program generates a random number at every run
  */
 
