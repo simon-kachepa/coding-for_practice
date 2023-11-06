@@ -21,7 +21,7 @@ int main(void)
 
     fputs("Coding is fun", fptr); /* Writting to the file */
 
-    fclose(fptr);
+    fclose(fptr); /* Clossing the file */
 
     return (0);
 }
