@@ -25,7 +25,7 @@ int main(void)
     head->link = NULL;
 
     struct node *current = malloc(sizeof(struct node));
-    current->data = 200;
+    current->data = 20;
     current->link = NULL;
     head->link = current;
 
