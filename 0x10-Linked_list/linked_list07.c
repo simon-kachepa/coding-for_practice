@@ -48,10 +48,7 @@ int main(void)
      * ptr->data = 677;
      * ptr->link = head;
      * head = ptr;
-     
      */
-    
-    
     add_node_at_beginning(&head, 350);
 
     /* Prining the linked list with the newly inserted node*/
