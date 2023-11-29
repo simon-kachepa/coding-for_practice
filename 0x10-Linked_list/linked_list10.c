@@ -21,18 +21,18 @@ int main(void)
     struct node *head = NULL;
 
     head = malloc(sizeof(struct node));
-    head->data = 50;
+    head->data = 500;
     head->link = NULL;
 
     struct node *current = NULL;
     current = malloc(sizeof(struct node));
-    current->data = 60;
+    current->data = 600;
     current->link = NULL;
 
     head->link = current;
 
     current = malloc(sizeof(struct node));
-    current->data = 70;
+    current->data = 700;
     current->link= NULL;
 
     head->link->link = current;

@@ -23,30 +23,30 @@ int main(void)
     struct node *head = NULL;
 
     head = malloc(sizeof(struct node));
-    head->data = 15;
+    head->data = 150;
     head->link = NULL;
 
     struct node *current = NULL;
     current = malloc(sizeof(struct node));
-    current->data = 16;
+    current->data = 160;
     current->link = NULL;
 
     head->link = current;
 
     current = malloc(sizeof(struct node));
-    current->data = 10;
+    current->data = 100;
     current->link= NULL;
 
     head->link->link = current;
 
     current = malloc(sizeof(struct node));
-    current->data = 18;
+    current->data = 180;
     current->link = NULL;
 
     head->link->link->link = current;
 
     current = malloc(sizeof(struct node));
-    current->data = 19;
+    current->data = 190;
     current->link = NULL;
 
     head->link->link->link->link = current;
@@ -57,7 +57,7 @@ int main(void)
     /**
      * Inserting a new node at the 4th position
     */
-   add_node_pos(head, 4, 137);
+   add_node_pos(head, 4, 1317);
 
     /**
      * Printing the new list with new node inserted at the 4th position
