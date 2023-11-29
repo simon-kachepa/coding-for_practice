@@ -40,7 +40,7 @@ int main(void)
     head->link->link = current;
 
     current = malloc(sizeof(struct node));
-    current->data = 18;
+    current->data = 180;
     current->link = NULL;
 
     head->link->link->link = current;
