@@ -54,7 +54,7 @@ int main(void)
     /**
      * Calling the delete node at a certain position function 
     */
-   delete_certain_node(head, 50);
+   delete_certain_node(head, 500);
     /**
      * Printing the new list with the deleted last node 
     */
