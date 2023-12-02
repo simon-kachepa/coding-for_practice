@@ -20,7 +20,7 @@ int main(void)
     struct node *head = NULL;
 
     head = malloc(sizeof(struct node));
-    head->data = 150;
+    head->data = 15;
     head->link = NULL;
 
     struct node *current = malloc(sizeof(struct node));
