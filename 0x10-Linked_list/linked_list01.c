@@ -34,6 +34,9 @@ int main(void)
     printf("%d\n", head->data);
     printf("%d\n", head->link->data);
     printf("%d\n", head->link->link->data);
+
+    free(head);
+    free(current);
     
     return 0;
 }
