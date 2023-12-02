@@ -39,6 +39,9 @@ int main(void)
 
     /*Calling function that counts the nodes*/
     node_count(head);
+
+    free(head);
+    free(current);
     return (0);
 }
 
