@@ -20,7 +20,7 @@ int main(void)
 
     head = malloc(sizeof(struct node));
 
-    head->data = 9;
+    head->data = 90;
     printf("%d\n", head->data);
     printf("%p\n", head);
 
