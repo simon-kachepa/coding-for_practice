@@ -30,7 +30,7 @@ int main(void)
     print_data(head);
 
     /*Adding a new node at the end of the linked list*/
-    add_node(head, 750);
+    add_node(head, 75);
 
     /*Printing the new linked list, with added new node*/
     print_data(head);
