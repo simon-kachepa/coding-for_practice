@@ -34,6 +34,9 @@ int main(void)
 
     /*Printing the data of the created linked list */
     print_data(head);
+
+    free(head);
+    free(current);
     return (0);
 }
 
