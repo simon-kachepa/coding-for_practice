@@ -25,7 +25,7 @@ int main(void)
     head->link = NULL;
 
     struct node *ptr = head;
-    ptr = add_node(ptr, 150);
+    ptr = add_node(ptr, 15);
     ptr = add_node(ptr, 200);
     ptr = add_node(ptr, 350);
 
