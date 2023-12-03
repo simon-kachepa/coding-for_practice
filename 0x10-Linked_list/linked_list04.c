@@ -35,7 +35,8 @@ int main(void)
     /*Printing the new linked list, with added new node*/
     print_data(head);
 
-
+    free(head);
+    free(current);
     return (0);
 }
 
