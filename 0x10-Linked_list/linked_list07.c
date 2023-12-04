@@ -54,6 +54,8 @@ int main(void)
     /* Prining the linked list with the newly inserted node*/
     print_data(head);
 
+    free(head);
+
     return (0);
 }
 
