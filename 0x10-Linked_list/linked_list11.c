@@ -59,6 +59,8 @@ int main(void)
      * Printing the new list with the deleted last node 
     */
    print_data(head);
+
+    free(head);
     return (0);
 }
 
