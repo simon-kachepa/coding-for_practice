@@ -63,6 +63,8 @@ int main(void)
      * Printing the new list with new node inserted at the 4th position
     */
    print_data(head);
+
+    free(head);
     return (0);
 }
 
