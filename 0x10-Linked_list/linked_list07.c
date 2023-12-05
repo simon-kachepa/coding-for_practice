@@ -55,6 +55,7 @@ int main(void)
     print_data(head);
 
     free(head);
+    free(current);
 
     return (0);
 }
