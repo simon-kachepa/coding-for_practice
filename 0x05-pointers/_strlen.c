@@ -14,6 +14,11 @@ int main(void)
 
     return (0);
 }
+/**
+    *_strlen - Function that finds the length of a string
+    * @str: String to be evaluated
+    * Return: length of the string
+*/
 int _strlen(char *str)
 {
     int i;
