@@ -11,5 +11,6 @@ int main(void)
 
     *ptr = 98;
     printf("%d\n", *ptr);
+    
     return (0);
 }
