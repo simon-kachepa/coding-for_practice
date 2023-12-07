@@ -15,6 +15,7 @@ int main(void)
     result = (*ptr)(30, 20);
 
     printf("Sum is: %d\n", result);
+    
     return (0);
 }
 int sum(int num1, int num2)
