@@ -23,8 +23,5 @@ int main(void)
     ptr[4] = 11;
     printf("%d\n", *(ptr + 4));
 
-
-
-
     return (0);
 }
