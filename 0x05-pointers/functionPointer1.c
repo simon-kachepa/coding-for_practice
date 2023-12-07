@@ -17,6 +17,7 @@ int main(void)
     ptr = sum(a, b);
 
     printf("Sum is: %d\n", ptr);
+    
     return (0);
 }
 int sum(int num1, int num2)
