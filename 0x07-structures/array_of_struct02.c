@@ -31,7 +31,8 @@ int main(void)
          printf("-------------------------------\n");
     }
 
-    for (index = 0; index < 3; index++)
+    index = 0
+    while (index < 3)
     {
         printf("Student %d details\n", index + 1);
         printf("-------------------------------\n");
@@ -39,6 +40,8 @@ int main(void)
         printf("Name: %s\n", student[index].name);
         printf("Mark: %f\n", student[index].mark);
         printf("---------------------------------------------------\n");
+        index++
     }
+    
     return (0);
 }
