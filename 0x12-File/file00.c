@@ -9,7 +9,7 @@
 
 int main(void)
 {
-    FILE *fptr; /* Declaring a variable of type FILE*/
+    FILE *fptr = NULL; /* Declaring a variable of type FILE*/
 
     fptr = fopen("hardy.txt", "w"); /* Initializing the variable fptr with file opened*/
 
