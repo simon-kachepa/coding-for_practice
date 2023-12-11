@@ -3,7 +3,7 @@
 
 /**
 * main - Entry point
-* Description:
+* Description: Program that convert number strings entered as arguments and add them
 * Return: 0 (Success)
 */
 
