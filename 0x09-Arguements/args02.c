@@ -8,6 +8,6 @@
 
 int main(int argc, char *argv[])
 {
-    printf("%d\n", argc - 1);
+    printf("%d\n", argc - 1); /* We need to subtract 1 in order not to include prog name when counting the arguments*/
     return (0);
 }
