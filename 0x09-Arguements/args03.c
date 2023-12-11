@@ -2,7 +2,7 @@
 
 /**
 * main - Entry point
-* Description: Program that prints command line arguements
+* Description: Program that prints command line arguements using the argument count
 * Return:0 (Success)
 */
 
