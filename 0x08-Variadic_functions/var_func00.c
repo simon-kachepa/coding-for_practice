@@ -1,13 +1,12 @@
 #include <stdio.h>
 #include <stdarg.h>
 
+char print(int args, ...);
 /**
 * main - Entry point
 * Description:
 * Return: 0 (Success)
 */
-
-char print(int args, ...);
 int main(void)
 {
     add(3, 'A', 'B', 'C');
