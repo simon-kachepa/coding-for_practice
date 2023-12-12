@@ -2,14 +2,15 @@
 #define _SHELL_H_
 
 #include <stdio.h>
-#include <unistd.h>
-#include <sys/stat.h>
-#include <string.h>
-#include <sys/wait.h>
-#include <limits.h>
-#include <fcntl.h>
 #include <stdlib.h>
+#include <stdbool.h>
+#include <limits.h>
 #include <errno.h>
+#include <string.h>
+#include <unistd.h>
+#include <fcntl.h>
+#include <sys/stat.h>
+#include <sys/wait.h>
 #include <sys/types.h>
 
 #define BUF_FLUSH -1
