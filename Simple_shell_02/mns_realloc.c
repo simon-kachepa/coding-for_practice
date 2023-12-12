@@ -46,16 +46,16 @@ void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 
 /**
  * ffree - Frees a string
- * @pp: string
+ * @str: string to be freed
  * Return: void
  */
-void ffree(char **pp)
+void ffree(char **str)
 {
-	char **a = pp;
+	char **a = str;
 
-	if (!pp)
+	if (!str)
 		return;
-	while (*pp)
-		free(*pp++);
+	while (*str)
+		free(*str++);
 	free(a);
 }
