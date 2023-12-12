@@ -1,48 +1,50 @@
 #include "shell.h"
 
 /**
- * _strcpy - Copies a string
- * @dest: The destination
- * @src: The source
- * Return: pointer to DESTI
+ * _strcpy - Function that copies a string
+ * @dest: Pointer to the destination
+ * @src: Pointer to the source
+ * Return: pointer to the destination
  */
 char *_strcpy(char *dest, char *src)
 {
-	int i = 0;
+	int index;
 
 	if (dest == src || src == 0)
 		return (dest);
-	while (src[i])
+	index = 0;
+	while (src[index])
 	{
-		dest[i] = src[i];
-		i++;
+		dest[index] = src[index];
+		index++;
 	}
-	dest[i] = 0;
+	dest[index] = 0;
 	return (dest);
 }
 
 /**
- *_puts - Prints an input string
+ *_puts - Function that prints an input string
  *@str: The string to be printed
- * Return: NONE
+ * Return: void (Nothing)
  */
 void _puts(char *str)
 {
-	int i = 0;
+	int index;
 
 	if (!str)
 		return;
-	while (str[i] != '\0')
+	index = 0;
+	while (str[index] != '\0')
 	{
-		_putchar(str[i]);
-		i++;
+		_putchar(str[index]);
+		index++;
 	}
 }
 
 /**
- * _putchar - Writes the char C to stdout
- * @c: The char to print
- * Return: On success 1.
+ * _putchar - Function that prints a character
+ * @c: The char to be printed
+ * Return: 1 (Success)
  */
 int _putchar(char c)
 {
@@ -60,23 +62,23 @@ int _putchar(char c)
 }
 
 /**
- * _strdup - DUPLICATE a string
- * @str: The string to DUPLICATE
- * Return: Pointer to the DUPLICATED string
+ * _strdup - Function that duplicate a string
+ * @str: The string to duplicated
+ * Return: Pointer to the duplicated string
  */
 char *_strdup(const char *str)
 {
 	int length = 0;
-	char *ret;
+	char *res;
 
 	if (str == NULL)
 	return (NULL);
 	while (*str++)
 		length++;
-	ret = malloc(sizeof(char) * (length + 1));
-	if (!ret)
+	res = malloc(sizeof(char) * (length + 1));
+	if (!res)
 		return (NULL);
 	for (length++; length--;)
-		ret[length] = *--str;
-	return (ret);
+		res[length] = *--str;
+	return (res);
 }
