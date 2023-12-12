@@ -1,62 +1,63 @@
 #include "shell.h"
 
 /**
- * _strlen - Returns the length of a STRING
- * @s: The string whose length to LOOK UP
- * Return: integer length of string
+ * _strlen - Function that finds the length of a string
+ * @str: The string whose length to be found
+ * Return: the length of the string
  */
-int _strlen(char *s)
+int _strlen(char *str)
 {
-	int i = 0;
+	int count;
 
-	if (!s)
+	if (!str)
 		return (0);
 
-	while (*s++)
-		i++;
-	return (i);
+	count = 0;
+	while (*str++)
+		count++;
+	return (count);
 }
 
 /**
- * _strcmp - Performs lexicogarphic comparison of two strangs.
- * @s1: The 1ST strang
- * @s2: The 2ND strang
+ * _strcmp - Function to compare two strings.
+ * @str1: The first string
+ * @str2: The second string
  * Return: negative if s1 < s2, positive if s1 > s2, zero if s1 == s2
  */
-int _strcmp(char *s1, char *s2)
+int _strcmp(char *str1, char *str2)
 {
-	while (*s1 && *s2)
+	while (*str1 && *str2)
 	{
-		if (*s1 != *s2)
-			return (*s1 - *s2);
-		s1++;
-		s2++;
+		if (*str1 != *str2)
+			return (*str1 - *str2);
+		str1++;
+		str2++;
 	}
-	if (*s1 == *s2)
+	if (*str1 == *str2)
 		return (0);
 	else
-		return (*s1 < *s2 ? -1 : 1);
+		return (*str1 < *str2 ? -1 : 1);
 }
 
 /**
- * _strcat - Concatenates two strings
- * @dest: The destination BUFFER
- * @src: The buffer source
- * Return: Pointer to destination BUFFER
+ * _strcat - Function that concatenates two strings
+ * @dest: Pointer to the destination buffer
+ * @src: Pointer to the source buffer
+ * Return: Pointer to the concatenated string
  */
 char *_strcat(char *dest, char *src)
 {
-	char *ret = dest;
+	char *res = dest;
 
 	while (*dest)
 		dest++;
 	while (*src)
 		*dest++ = *src++;
 	*dest = *src;
-	return (ret);
+	return (res);
 }
 /**
- * starts_with - Checks if needle starts with haystack
+ * starts_with - Funcution that checks if needle starts with haystack
  * @haystack: String to LOOK UP
  * @needle: The substring to find
  * Return: Address of next char of haystack/NULL
