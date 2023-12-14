@@ -32,7 +32,7 @@ int main(void)
     }
 
     index = 0;
-    for while (index < 3)
+    while (index < 3)
     {
         printf("Student %d details\n", index + 1);
         printf("----------------------------------------------------\n");
