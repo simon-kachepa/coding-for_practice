@@ -36,6 +36,5 @@ int main(void)
         printf("The person's age is: %d\n", person[0].age);
         printf("The person's gender is: %c\n", person[0].gender);
 
-
-    //}
     return (0);
+}

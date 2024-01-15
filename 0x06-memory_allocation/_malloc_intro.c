@@ -14,6 +14,8 @@ int main()
     number = malloc(sizeof(int));
 
     printf("%d\n", *number);
-    free(num);
+    
+    free(number); /* Free the memory allocated to number */
+    
     return (0);
 }
