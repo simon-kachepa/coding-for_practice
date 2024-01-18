@@ -1,8 +1,9 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
 * main - Entry Point
-* Description:
+* Description: Program that adds two integers using pointers. it has a function that accepts the addresses and adds the numbers in these addresses
 * Return: 0 (Success)
 */
 
