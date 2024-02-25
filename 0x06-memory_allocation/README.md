@@ -1,2 +1,2 @@
-#### This file contains memory allocation codes for practice purpose
+#### This directory contains memory allocation codes for practice purpose
 
