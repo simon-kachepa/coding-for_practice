@@ -4,6 +4,7 @@
 * main - Entry point
 * Desrciption: 
 * Return: 0 (Success)
+*/
 
 int main(void)
 {
